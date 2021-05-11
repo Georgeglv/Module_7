@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.header, .main-section {
+    padding-top: 0;
+    background-color: #eeeff1;
+}
+
+.fixed-container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1240px;
+}
+
+.menu-container {
+    padding-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {padding-left: 47px;}
+
+.header-menu {
+    padding-top: 3px;
+}
+
+.menu {display: flex;}
+
+nav ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    letter-spacing: 1.7px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 55px;
+}
+
+nav ul li a:hover {color:#ff0000}
+
+.burger-icon {
+    display: none;
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+.burger-icon span {
+    display: block;
+    height: 2px;
+    width: 24px;
+    background-color: #34547A;
+}
+
+.burger-icon span:nth-child(2) {
+    margin: 6px 0;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 136px;
+    padding-bottom: 155px;
+}
+
+.laptop {
+    padding-left: 136px;
+    padding-top: 20px;
+}
+
+.caption {
+    font-size: 44px;
+    margin-bottom: 48px;
+    letter-spacing: 2px;
+}
+
+.description {
+    margin-bottom: 50px;
+    line-height: 26px;
+    width: 580px;
+}
+
+.button {
+    width: 228px;
+    height: 70px;
+    background-color:#34547A;
+    color: #FFFFFF;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.button:hover {background-color: #243952;}
+
+.section-content {
+    padding: 400px 100px;
+    border: 1px solid black;
+}
+
+.back {
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.mobile-container {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 12;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.8s ease 0s
+}
+
+.mobile-container:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup_area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.section-about-me {
+    display: flex;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.about-me {
+    margin-left: auto;
+    margin-right: auto;
+    height: 147px;
+    width: 540px;
+}
+.caption-about-me {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.description-about-me {
+    line-height: 26px;
+    text-align: center;
+}
+
+.section-portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.menu_portfolio {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-portfolio {
+    background-color: #34547A;
+}
+
+.project_item {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 49px;
+    margin-left: 0;
+}
+
+.about_document {
+    margin-left: 20px;
+    color: white;
+}
+
+.caption_document {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+div ul li {
+    list-style-type: none;
+}
+
+.section-my-work-process {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 136px;
+    padding-bottom: 155px;
+}
+
+.section-my-work-process {
+    padding-top: 101px;
+    padding-bottom: 102px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 445px;
+}
+
+.caption_skills {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+
+}
+
+.adobe_skills {
+    margin-top: 20px;
+}
+.stripe {
+    border-bottom: 4px solid #34547A;
+    max-width: 445px;
+    position: relative;
+  }
+
+.stripe:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 0;
+    border-bottom: 4px solid #C4C4C4;
+    width: calc(100% - 75%);
+}
+
+.how-i-work {
+    background-color: #eeeff1;
+}
+
+.about-my-work {
+    width: 540px;
+    height: 147px;
+    padding-top: 100px;
+    padding-bottom: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.caption-my-work {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+}
+
+.video {
+    padding-bottom: 100px;
+}
+
+.section-color-stick {
+    padding-top: 28px;
+}
+
+.color-stick-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -4px;
+}
+.color-stick-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.MS {
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+.MS-logo-icon {
+    display: flex;
+}
+
+.feedback {
+    height: 762px;
+    background-color: #eeeff1;
+}
+
+.section-feedback {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.caption-order {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.description-order {
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+}
+
+.costumer_data {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between
+}
+
+.User_name {
+    width: 255px;
+    height: 50px;
+}
+
+.User_massage {
+    margin-top: 20px;
+    width: 540px;
+    height: 175px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.Send-button {
+    display: flex;
+    justify-content: center;
+}
+
+.send {
+    margin-top: 50px;
+    width: 190px;
+    height: 55px;
+    background-color:#34547A;
+    color: #FFFFFF;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.send:hover {background-color: #243952;}
+
+footer {
+    background-color: #34547A;
+    height: 151px;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.footer-author {
+    width: 1125px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+}
+
+.Name-Author {
+    font-weight: 500px;
+    font-size: 21px;
+}
+
+.certification {
+    margin-top: 10px;
+    font-weight: 400px;
+}
+
+@media (max-width: 1250px) {
+    .description {
+        margin-bottom: 70px;
+        width: 100%;
+    }
+
+    .right-part {padding-left: 80px;}
+
+    .laptop {padding-left: 50px;}
+}
+
+.header-mobile {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 310px;
+    height: 380px;
+    background-color: rgba(79, 128, 192);
+    border: 1px solid grey;
+    border-radius: 10px;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.close-icon {
+    width: 18px;
+    padding-top: 12px;
+}
+
+.close-icon span {
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    display: block;
+    height: 1px;
+    width: 20px;
+    background-color: yellow;
+}
+
+.close-icon span:first-child {transform: rotate(45deg);}
+
+.close-icon span:last-child {transform: rotate(-45deg);}
+
+.mobile-list {
+    padding-left: 25px;
+    margin-top: 0px;
+    padding-top: 65px;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 18px;
+}
+
+.mobile-list li {
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: -0.36px;
+    padding-top: 9px;
+    margin: 0 auto;
+    border-bottom: 1px solid lightgrey;
+    width: 120px;
+    text-transform: uppercase;
+}
+
+.mobile-list li:last-child {border-bottom: none;}
+
+.mobile-list a {
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+
+.mobile-list a:hover {color: yellow;}
+
+@media (max-width: 925px) {
+
+    .logo {padding-left: 0;}
+
+    .header-menu {display: none;}
+
+    .section-container {
+        display: block;
+        align-content: center;
+        padding-top: 50px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .right-part {
+        margin:0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .laptop  {
+        padding: 0;
+        margin: 0 auto 40px auto;
+        text-align: center;
+    }
+
+    .caption {font-size: 24px;}
+
+    .menu-container {padding-top: 30px;}
+
+    .burger-icon {
+        display: block;
+        height: 2px;
+        width: 24px;
+    }
+
+    .section-my-work-process {
+        display: block;
+        align-content: center;
+        padding-top: 50px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .my_face {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1150px) {  
+    .menu_portfolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_document {
+        margin-right: 20px;
+    }
+
+    .project_item {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start
+    }
+}
+
+@media (max-width: 400px) {
+    .laptop img {width: 250px;}
+}
